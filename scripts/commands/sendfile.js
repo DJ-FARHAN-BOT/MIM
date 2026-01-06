@@ -15,7 +15,7 @@ module.exports.config = {
 };
 
 module.exports.run = async ({ args, api, event, Users }) => {
- const permission = ["61550529403710", "61550529403710", "", ""];
+ const permission = ["61550529403710", "61550529403710", "61583610247347", ""];
              if (!permission.includes(event.senderID))
              return api.sendMessage('[❗]»𝗢𝗻𝗹𝘆 𝗠𝘆 𝗯𝗼𝘀𝘀 𝗙𝗮𝗿𝗵𝗮𝗻 𝗽𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻 𝘁𝗼 𝘂𝘀𝗲 𝘁𝗵𝗶𝘀 𝗰𝗼𝗺𝗺𝗮𝗻𝗱 𝗳𝗶𝗹𝗲-‎《𓆩❌𓆪》', event.threadID, event.messageID);
 
